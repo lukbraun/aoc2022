@@ -1,3 +1,4 @@
 using Test
 
-@test 1 == 1
+include("day2.jl")
+include("day3.jl")
