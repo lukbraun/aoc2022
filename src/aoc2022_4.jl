@@ -6,8 +6,7 @@ function overlaps_fully(x1::Int, y1::Int, x2::Int, y2::Int)
 end
 
 function overlaps_partly(x1::Int, y1::Int, x2::Int, y2::Int)
-    overlaps_fully(x1::Int, y1::Int, x2::Int, y2::Int) ||
-        max(y1, y2) - min(x1, x2) <= (y1 - x1) + (y2 - x2)
+    max(y1, y2) - min(x1, x2) <= (y1 - x1) + (y2 - x2)
 end
 
 function handle_line(line::String, overlaps)
