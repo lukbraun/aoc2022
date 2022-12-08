@@ -4,6 +4,7 @@ using .aoc2022_1
 using .aoc2022_2
 using .aoc2022_3
 using .aoc2022_4
+using .aoc2022_5
 
 export get_input_to_path
 
@@ -43,5 +44,8 @@ function day4()
     exec(4, aoc2022_4.first_assignment, aoc2022_4.second_assignment)
 end
 
+function day5()
+    exec(5, aoc2022_5.first_assignment, aoc2022_5.second_assignment)
+end
 
 end # module aoc2022
